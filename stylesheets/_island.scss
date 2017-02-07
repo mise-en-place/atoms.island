@@ -24,6 +24,11 @@ By default all islands are clearfixed with a white background.
 ```
 */
 
+@import "tool-clearfix";
+@import "utility-trim";
+@import "config-helpers";
+@import "tool-palette";
+
 .island {
     @include clearfix();
     @include trim();

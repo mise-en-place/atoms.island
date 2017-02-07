@@ -18,5 +18,11 @@
     "url": "https://github.com/mise-en-place/atoms/island.git"
   },
   "author": "Kind",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.clearfix": "github:mise-en-place/tools.clearfix",
+    "mep-utilities.trim": "github:mise-en-place/utilities.trim",
+    "mep-config.helpers": "github:mise-en-place/config.helpers",
+    "mep-tools.palette": "github:mise-en-place/tools.palette"
+  }
 }
